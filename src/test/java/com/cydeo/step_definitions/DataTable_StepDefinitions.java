@@ -17,13 +17,13 @@ public class DataTable_StepDefinitions {
 
     }
 
-
     @Given("User is on the dropdowns page of practice tool")
     public void user_is_on_the_dropdowns_page_of_practice_tool() {
 
         Driver.getDriver().get("https://practice.cydeo.com/dropdown");
 
     }
+
 
     DropdownsPage dropdownsPage = new DropdownsPage();
 

@@ -15,7 +15,7 @@ Feature: User should be able to login using correct credentials
     Then user should see url contains orders
 
 
-  Scenario: User should be able to see all 12 months in months dropdown
+  Scenario: Login Scenario
     When user enters below credentials
       | username     | Test   |
       | password     | Tester |
