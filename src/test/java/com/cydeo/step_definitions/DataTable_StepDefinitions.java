@@ -17,6 +17,7 @@ public class DataTable_StepDefinitions {
 
     }
 
+
     @Given("User is on the dropdowns page of practice tool")
     public void user_is_on_the_dropdowns_page_of_practice_tool() {
 
@@ -36,3 +37,4 @@ public class DataTable_StepDefinitions {
         //Assert will check the size of the lists first. If it is matching it will check content 1 by 1.
 
     }
+}
